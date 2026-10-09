@@ -29,7 +29,7 @@ At runtime the overidden method is selected according to the actual object not m
 Acessible methods -> based on referenc class
 Overriden methods -> based on inherited class
 
-
+The method use for selecting the overidden method is called Dynamic memory dispatch 
 */
 class Vehicle {
     String brand;
