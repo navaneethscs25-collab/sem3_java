@@ -37,10 +37,12 @@ Eg: static {}
 */
 
 class StaticDemo {
+    int k;
     static int a=42;
     static int b=99;
     static void callme() {
         System.out.println("a = " + a);
+        //System.out.println(k);
     }
 
     public static void main(String[] args) {
